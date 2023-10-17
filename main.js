@@ -26,7 +26,7 @@
  */
 function firstUpperCase (name) {
   if (name.length > 0) {
-    return name[0].toUpperCase() + name.substr(1, name.length - 1)
+    return "_"+name
   }
   return ''
 }
